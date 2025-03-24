@@ -13,7 +13,7 @@ const Header = () => {
     { name: "Notifications", url: "" },
   ]
   return (
-    <div className="row d-flex justify-content-around align-items-center header-wrapper">
+    <div className=" d-flex justify-content-around align-items-center header-wrapper">
       <div className="col-md-11 d-flex justify-content-between align-items-center nav-inner-container">
         <div className="logo" >
           <img src={logo} />
@@ -28,7 +28,7 @@ const Header = () => {
             }
           </div>
         </div>
-        <div className="col-md-4 d-flex justify-content-between" >
+        <div className="col-md-4 d-flex justify-content-between align-items-center" >
           <input type="password" className="search-field" id="inputPassword2" placeholder="Search" />
           <button type="button" class="btn btn-primary transviti-btn">Resume Builder</button>
           <img src={profilePic} className='profile-pic' />
