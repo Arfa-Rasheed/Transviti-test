@@ -1,0 +1,103 @@
+.job-items {
+    background-color: white;
+    height: 24vh;
+    border-radius: 11px;
+    width: 19%;
+
+    @media (max-width:2500px) and (min-width:1700px) {
+        height: 20vh;
+    }
+
+    @media(max-width:1312px){
+        padding: 0.7rem !important;
+    }
+    
+
+    .logo-container {
+        background-color: #f4f4f4;
+        height: 6vh;
+        border-radius: 9.11px;
+        width: 24%;
+    }
+
+    .job-title {
+        width: 71%;
+        height: 5vh;
+        font-size: 0.9rem;
+
+        @media (max-width:2500px) and (min-width:2188px) {
+            font-size: 1.5rem;
+        }
+        @media(max-width:2190px) and (min-width:2167px){
+            font-size: 1.4rem;
+        }
+        @media(max-width:2066px) and (min-width:1700px){
+            font-size: 1.4rem;
+        }
+
+        @media (max-width: 1370px) {  /* No need for min-width */
+            font-size: 0.8rem;
+        }
+
+        @media(max-width:1312px){
+            font-size: 0.7rem;
+        }
+
+
+        #teams {
+            font-size: 0.875rem;
+
+            @media (max-width:2500px) and (min-width:1700px) {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 0px;
+    }
+
+    .location-and-time {
+        height: 2vh;
+        font-size: 0.75rem;
+        gap: 5px;
+
+        img{
+            @media (max-width:2500px) and (min-width:1700px) {
+                width: 6%;
+            }
+        }
+
+        @media (max-width:2500px) and (min-width:2230px) {
+            font-size: 1.2rem;
+            gap: 1rem;
+        }
+
+        @media (max-width:2229px) and (min-width:2121px) {
+            font-size: 1.2rem;
+            gap: 0.8rem;
+        }
+
+        @media (max-width:2120px) and (min-width:1700px) {
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 1370px) {  /* No need for min-width */
+            font-size: 0.63rem;
+        }
+
+        @media(max-width:1312px){
+            font-size: 0.59rem;
+        }
+
+        .sub-text {
+            text-align: left;
+        }
+
+        
+    }
+
+    .save {
+        height: 20px;
+    }
+}

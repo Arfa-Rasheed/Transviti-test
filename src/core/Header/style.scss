@@ -1,0 +1,62 @@
+.header-wrapper{
+    height: 10vh;
+    width: 100.8%;
+
+    // .menu-container{
+    //     width: 50%;
+    //     border: 2px solid black;
+    // }
+    
+    .nav-menu{
+        font-size: 1.1rem;
+        // @media (max-width:2500px) and (min-width:2121px) {
+        //     font-size: 1.7rem;
+        // }
+        // @media (max-width:2120px) and (min-width:1700px) {
+        //     font-size: 1.5rem;
+        // }
+        // @media(max-width:1365px){
+        //     font-size: 1rem;
+        // }
+
+        @media (max-width: 2500px) and (min-width: 2121px) {
+            font-size: 1.7rem;
+        }
+        
+        @media (max-width: 2120px) and (min-width: 1700px) {
+            font-size: 1.5rem;
+        }
+        
+        @media (max-width: 1365px) {  /* No need for min-width */
+            font-size: 0.9rem;
+        }
+        
+        
+    }
+}
+
+h5{
+    color: #0154AA;
+    @media (max-width:2500px) and (min-width:1700px) {
+        font-size: 2.4rem;
+    }
+}
+
+.logo{
+    width:4%
+}
+
+.transviti-btn{
+    background-color:#0154AA;
+    @media (max-width: 1370px) {  /* No need for min-width */
+        font-size: 0.7rem;
+    }
+}
+.search-field{
+    width: 60%;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+.profile-pic{
+    height: 5vh;
+}
